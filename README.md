@@ -32,6 +32,6 @@ Draw() メソッド:Geant4の視覚化を使用して、ヒットの位置を表
 Print() メソッド:コンソールに fTrackID、fChamberNb、fEdep、fPos、および fMom に関する情報を出力します。
 
 ・TrackerSDで情報の取得：edep>=0の時のhitごとに情報の取得
-・RUnActionで情報を入れるコラムの作成
+・RunActionで情報を入れるコラムの作成、file.rootに入れていく
 ・EventActionでコラムに情報を入れていく
 ・vis.macでγ線とか消せる
